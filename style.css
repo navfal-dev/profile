@@ -63,7 +63,7 @@ html {
         box-sizing: border-box;
         min-height: 100%;
         font-size: 1.3em;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat' !important;
         line-height: 1.5;
         margin: 0;
         padding: 35px 20px;
