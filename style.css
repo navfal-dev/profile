@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1350px) {
     body {
         box-sizing: border-box;
         min-height: 100%;
@@ -54,7 +54,7 @@ html {
     }
 }
 
-@media screen and (max-width: 849px) {
+@media screen and (max-width: 1349px) {
     
     
     body {
