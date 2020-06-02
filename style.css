@@ -4,8 +4,8 @@ html {
 
 @media screen and (min-width: 1050px) {
     body {
-        box-sizing: border-box;
-        min-height: 100%;
+        min-height: 20%;
+        max-height: 100%;
         font-size: 1.3em;
         /* font-family: 'Montserrat', sans-serif; */
         line-height: 1.5;
@@ -15,12 +15,12 @@ html {
     }
     h1 {
         margin: 0 0 .4em 0;
-        font-size: 4.5em;
+        font-size: 3.5em;
         font-weight: 3000 !important;
         line-height: normal;
     }
     p {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     h1 span {
         display: block;
@@ -47,8 +47,7 @@ html {
         display: none;
     }
     body.photo {
-        display: block;
-        background: url(image.png), linear-gradient( to bottom, #f0f0f0, #f5f5f5 5%, #f5f5f5 10%, #f4f4f4 25%, #eee 40%, #e7e7e7 50%, #ddd 60%, #d9d9d9 65%, #d5d5d5 70%, #ccc 75%, #c5c5c5 80%, #b6b6b6 90%, #b2b2b2 95%, #b5b5b5 97%, #aaa);
+        background: url(assets/images/image.png), linear-gradient( to bottom, #f0f0f0, #f5f5f5 5%, #f5f5f5 10%, #f4f4f4 25%, #eee 40%, #e7e7e7 50%, #ddd 60%, #d9d9d9 65%, #d5d5d5 70%, #ccc 75%, #c5c5c5 80%, #b6b6b6 90%, #b2b2b2 95%, #b5b5b5 97%, #aaa);
         background-size: auto 100%;
         background-position: top right;
         background-repeat: no-repeat;
