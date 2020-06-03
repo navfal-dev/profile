@@ -67,15 +67,12 @@ html {
         line-height: 1.5;
         margin: 0;
         padding: 35px 20px;
-        background: linear-gradient( to bottom, #f0f0f0, #f5f5f5 5%, #f4f4f4 25%, #e7e7e7 50%, #aaaaaa) ;
+        background: linear-gradient( to bottom, #f5f0f0, #f5f5f5 , #f4f4f4 , #faf7f7, #ececec) ;
     }
     h1 {
         margin: 0 0 .4em 0;
         font-size: 4em;
         line-height: normal;
-    }
-    p {
-        font-size: 2em;
     }
     h1 span {
         display: block;
@@ -86,7 +83,8 @@ html {
         text-transform: uppercase;
         margin-bottom: 20px;
     }
-    p {
+    p {        
+        font-size: 2.5em;
         margin: 0;
     }
     p span {
@@ -105,7 +103,7 @@ html {
     body.photo {
         display: block;
         background-size: auto;
-        background: linear-gradient( to right, #f0f0f0, #f5f5f5 5%, #f5f5f5 10%, #f4f4f4 25%, #eee 40%, #e7e7e7 50%, #ddd 60%, #d9d9d9 65%, #d5d5d5 70%, #ccc 75%, #c5c5c5 80%, #b6b6b6 90%, #b2b2b2 95%, #b5b5b5 97%, #aaa);
+        background: linear-gradient( to right, #f0f0f0, #f5f5f5 5%, #f5f5f5 10%, #f4f4f4 25%);
         background-repeat: no-repeat;
         background-position: top right;
         
